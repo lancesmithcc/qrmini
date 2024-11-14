@@ -1,0 +1,162 @@
+.wrap {
+    padding: 20px;
+}
+
+.form-table {
+    margin-top: 20px;
+}
+
+.xqr-utm-builder {
+    max-width: 800px;
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+}
+
+.xqr-utm-builder .form-group {
+    margin-bottom: 20px;
+}
+
+.xqr-utm-builder label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.xqr-utm-builder input[type="url"],
+.xqr-utm-builder input[type="text"] {
+    width: 100%;
+    max-width: 500px;
+}
+
+.xqr-utm-builder .button-primary {
+    margin-top: 10px;
+}
+
+.xqr-generated-url {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f8f9fa;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+}
+
+.xqr-url-display {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.xqr-url-display input {
+    flex: 1;
+    background: #fff;
+}
+
+.xqr-url-display .button {
+    flex-shrink: 0;
+}
+
+#miniqr-utm-builder-root {
+    display: block;
+    min-height: 200px;
+}
+
+.xqr-qr-generator {
+    max-width: 800px;
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+}
+
+.xqr-generated-qr {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f8f9fa;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+}
+
+.xqr-qr-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.qr-image {
+    max-width: 300px;
+    height: auto;
+    border: 1px solid #ddd;
+}
+
+.xqr-qr-generator select {
+    width: 100%;
+    max-width: 500px;
+}
+
+.xqr-url-shortener {
+    max-width: 800px;
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+}
+
+.xqr-error {
+    margin: 20px 0;
+    padding: 10px 15px;
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    color: #721c24;
+}
+
+.shortener-form .form-group {
+    margin-bottom: 20px;
+}
+
+.shortener-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.xqr-url-list {
+    margin-top: 40px;
+}
+
+.xqr-url-list table {
+    margin-top: 20px;
+}
+
+.xqr-url-list .row-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.xqr-url-list .button {
+    padding: 0 10px;
+}
+
+.button-group {
+    display: flex;
+    gap: 5px;
+}
+
+.button-link-delete {
+    color: #dc3232;
+}
+
+.button-link-delete:hover {
+    color: #dc3232;
+    border-color: #dc3232;
+}
+
+.xqr-url-list td {
+    vertical-align: middle;
+}

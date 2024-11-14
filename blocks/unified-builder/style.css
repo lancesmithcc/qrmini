@@ -1,0 +1,115 @@
+.wp-block-miniqr-unified-builder {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: transparent;
+    border-radius: 4px;
+}
+
+.wp-block-miniqr-unified-builder .step-container {
+    margin-bottom: 2rem;
+}
+
+.wp-block-miniqr-unified-builder h3 {
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #e5e5e5;
+    color: #23282d;
+}
+
+.wp-block-miniqr-unified-builder .form-group {
+    margin-bottom: 1rem;
+}
+
+.wp-block-miniqr-unified-builder label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.wp-block-miniqr-unified-builder input,
+.wp-block-miniqr-unified-builder select {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.wp-block-miniqr-unified-builder .generated-url,
+.wp-block-miniqr-unified-builder .shortened-url {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 4px;
+}
+
+.wp-block-miniqr-unified-builder .generated-url input,
+.wp-block-miniqr-unified-builder .shortened-url input {
+    flex: 1;
+    background: #fff;
+}
+
+.wp-block-miniqr-unified-builder .button {
+    padding: 8px 16px;
+    background: #0073aa;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.wp-block-miniqr-unified-builder .button:hover {
+    background: #006291;
+}
+
+.wp-block-miniqr-unified-builder .button.button-secondary {
+    background: #f8f9fa;
+    color: #23282d;
+    border: 1px solid #ddd;
+}
+
+.wp-block-miniqr-unified-builder .button.button-secondary:hover {
+    background: #e9ecef;
+}
+
+.wp-block-miniqr-unified-builder .notice {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+}
+
+.wp-block-miniqr-unified-builder .notice-error {
+    background: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.wp-block-miniqr-unified-builder .qr-preview {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.wp-block-miniqr-unified-builder .qr-preview img {
+    max-width: 200px;
+    height: auto;
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .wp-block-miniqr-unified-builder {
+        padding: 1rem;
+        margin: 1rem;
+    }
+    
+    .wp-block-miniqr-unified-builder .generated-url,
+    .wp-block-miniqr-unified-builder .shortened-url {
+        flex-direction: column;
+    }
+}
