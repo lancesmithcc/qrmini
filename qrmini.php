@@ -44,11 +44,8 @@ function xqr_activate_plugin() {
     $table_name = $wpdb->prefix . XQR_TABLE_NAME;
     $charset_collate = $wpdb->get_charset_collate();
 
-    // Drop the table if it exists to ensure clean creation
-    $wpdb->query("DROP TABLE IF EXISTS $table_name");
-
-    // SQL for creating the short URLs table
-    $sql = "CREATE TABLE $table_name (
+    // Remove the DROP TABLE line and only create if it doesn't exist
+    $sql = "CREATE TABLE IF NOT EXISTS $table_name (
         id bigint(20) NOT NULL AUTO_INCREMENT,
         short_path varchar(100) NOT NULL,
         long_url text NOT NULL,
