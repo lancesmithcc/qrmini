@@ -36,7 +36,8 @@
             }
 
             try {
-                const response = await fetch('/wp-admin/admin-ajax.php', {
+                const timestamp = Date.now();
+                const response = await fetch(`${xqrData.ajaxUrl}?nocache=${timestamp}`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/x-www-form-urlencoded',
@@ -66,7 +67,8 @@
 
         const fetchUrls = async () => {
             try {
-                const response = await fetch('/wp-admin/admin-ajax.php', {
+                const timestamp = Date.now();
+                const response = await fetch(`${xqrData.ajaxUrl}?nocache=${timestamp}`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/x-www-form-urlencoded',
