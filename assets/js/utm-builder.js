@@ -74,11 +74,11 @@
                         required: true
                     })
                 ),
-                createField('Campaign Source *', 'source', 'google'),
-                createField('Campaign Medium *', 'medium', 'cpc'),
-                createField('Campaign Name *', 'campaign', 'spring_sale'),
-                createField('Campaign Term', 'term', 'running+shoes'),
-                createField('Campaign Content', 'content', 'logolink'),
+                createField('Campaign Source *', 'source', 'direct, bcard, google, e-newsletter, etc.'),
+                createField('Campaign Medium *', 'medium', 'direct, cpc, qrcode, email, etc.'),
+                createField('Campaign Name *', 'campaign', 'campaign\'s name'),
+                createField('Campaign Term', 'term', 'campaign keyword or identifier'),
+                createField('Campaign Content', 'content', 'specific offer or A/B variant'),
                 createElement('button', {
                     type: 'submit',
                     className: 'button button-primary'

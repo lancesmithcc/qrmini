@@ -120,19 +120,19 @@
                             type: 'url',
                             value: formData.baseUrl,
                             onChange: handleChange('baseUrl'),
-                            placeholder: 'https://example.com',
+                            placeholder: 'https://yourdomain.com',
                             required: true
                         })
                     ),
-                    createField('Campaign Source *', 'source', 'google', true),
-                    createField('Campaign Medium *', 'medium', 'cpc', true),
-                    createField('Campaign Name *', 'campaign', 'spring_sale', true),
-                    createField('Campaign Term', 'term', 'running+shoes'),
-                    createField('Campaign Content', 'content', 'logolink'),
+                    createField('Campaign Source *', 'source', 'direct,bcard,google,e-newsletter,etc', true),
+                    createField('Campaign Medium *', 'medium', 'direct,cpc,qrcode,email,etc', true),
+                    createField('Campaign Name *', 'campaign', 'what is your campaigns name', true),
+                    createField('Campaign Term', 'term', 'campaign keyword or identifier'),
+                    createField('Campaign Content', 'content', 'specific offer or A/B variant'),
                     createElement('button', {
                         type: 'submit',
                         className: 'button button-primary'
-                    }, 'Generate UTM URL')
+                    }, 'Generate Your UTM URL')
                 )
             ),
 
@@ -150,7 +150,7 @@
                     }, 'Copy')
                 ),
                 createElement('div', { className: 'form-group' },
-                    createElement('label', null, 'Custom Path (optional)'),
+                    createElement('label', null, 'Custom Path'),
                     createElement('input', {
                         type: 'text',
                         className: 'regular-text',

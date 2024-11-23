@@ -159,7 +159,7 @@
                     })
                 ),
                 createElement('div', { className: 'form-group' },
-                    createElement('label', null, 'Custom Path (optional)'),
+                    createElement('label', null, 'Custom Path'),
                     createElement('input', {
                         type: 'text',
                         className: 'regular-text',
