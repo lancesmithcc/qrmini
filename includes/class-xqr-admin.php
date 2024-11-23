@@ -130,7 +130,8 @@ class XQR_Admin {
             );
 
             wp_localize_script('miniqr-url-shortener', 'xqrData', array(
-                'nonce' => wp_create_nonce('xqr_ajax_nonce')
+                'nonce' => wp_create_nonce('xqr_ajax_nonce'),
+                'ajaxUrl' => admin_url('admin-ajax.php')
             ));
         }
 

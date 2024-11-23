@@ -96,7 +96,7 @@
             if (!confirm('Are you sure you want to delete this URL?')) return;
             
             try {
-                const response = await fetch('/wp-admin/admin-ajax.php', {
+                const response = await fetch(`${xqrData.ajaxUrl}?nocache=${timestamp}`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/x-www-form-urlencoded',
@@ -119,7 +119,7 @@
 
         const handleUpdate = async (id, longUrl) => {
             try {
-                const response = await fetch('/wp-admin/admin-ajax.php', {
+                const response = await fetch(`${xqrData.ajaxUrl}?nocache=${timestamp}`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/x-www-form-urlencoded',
