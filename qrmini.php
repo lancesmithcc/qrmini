@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name: MiniQR
- * Plugin URI: https://genexmarketing.com
+ * Plugin URI: https://lancesmith.cc
  * Description: A WordPress plugin to build UTM tracking URLs, shorten them, and generate QR codes.
  * Version: 1.0.0
  * Requires at least: 5.8
  * Requires PHP: 7.4
- * Author: Genex Marketing Agency Ltd
- * Author URI: https://genexmarketing.com
+ * Author: Lance Smith
+ * Author URI: https://lancesmith.cc
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: miniqr
